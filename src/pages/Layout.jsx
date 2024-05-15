@@ -1,9 +1,11 @@
 import React from 'react'
+import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
   return (
     <div>
-         Layout
+         <Link to="/dasboard">Home</Link>
+         <Link to="/users">user</Link>
     </div>
   )
 }
