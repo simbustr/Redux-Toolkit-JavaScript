@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./pages/Layout";
 import DashboardPage from "./pages/Dashboard";
 import UsersPage from "./pages/Users";
+import Servicespage from './pages/Services'
 
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
          
           <Route path="/dasboard" element={<DashboardPage />} />
           <Route path="/users" element={<UsersPage />} />
+          <Route path="/services" element={<Servicespage />} />
+          
+       
         </Routes>
       </BrowserRouter>
    

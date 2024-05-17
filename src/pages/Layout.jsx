@@ -3,9 +3,10 @@ import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div>
+    <div className='nav-bar'>
          <Link to="/dasboard">Home</Link>
          <Link to="/users">user</Link>
+         <Link to="/services">service</Link>
     </div>
   )
 }

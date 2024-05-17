@@ -26,3 +26,17 @@
     margin-top: 10px;
     cursor: pointer;
 }
+
+
+.nav-bar{
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+}
